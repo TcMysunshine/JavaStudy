@@ -38,4 +38,12 @@ public class UserBean implements Comparable<UserBean> {
             return -1;
         }
     }
+
+    @Override
+    public String toString() {
+        return "UserBean{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
